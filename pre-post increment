@@ -1,0 +1,26 @@
+//Pre increment
+#include <stdio.h>
+
+void main()
+{
+    int x;
+    int a=5;
+    printf("Value of a is %d \n",a);
+    x=++a;
+    printf("x=%d \n",x);
+    printf("a=%d",a);
+}
+
+
+//Post increment
+#include <stdio.h>
+
+void main()
+{
+    int x;
+    int a=5;
+    printf("Value of a is %d \n",a);
+    x=a++;
+    printf("x=%d \n",x);
+    printf("a=%d",a);
+}
