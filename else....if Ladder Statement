@@ -1,0 +1,25 @@
+//Find the gretest of the three numbers using conditional operator
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter value a,b,c:");
+    scanf("%d" "%d" "%d",&a,&b,&c);
+    if(a>b&&a>c)
+    {
+        printf("a is greater number");
+    }
+    else if(b>c)
+    {
+            printf("b is greater number");
+        }
+        else
+        {
+        printf("c is greater");
+        }
+
+}
+
+
+Output:Enter value a,b,c:17 21 2
+       b is greater number
