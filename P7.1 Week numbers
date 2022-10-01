@@ -34,3 +34,7 @@ void main()
 }
 
 }
+
+
+Output:Enter your week nubers from 1 to 7:2
+       Tuesday
