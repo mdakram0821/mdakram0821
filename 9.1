@@ -1,0 +1,24 @@
+/*
+9.A Find sum of digit of a given number
+*/
+#include<stdio.h>
+int main()
+{
+int i,n,m;
+int sum=0;
+printf("Enter number:");
+scanf("%d",&n);
+for(i=1;n!=0;i++)
+{
+    m=n%10;         //Remainder
+    sum=sum+m;      //Sum
+    n=n/10;         //Quotient
+}
+printf("sum-%d",sum);
+}
+
+
+
+
+Output:Enter number:2156
+       sum-14
