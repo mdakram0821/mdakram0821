@@ -1,0 +1,29 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main()
+{
+    //Decleratoin of array
+    int Rollno[5];
+    int i;
+    //Initializing of array to run
+    for(i=0;i<5;i++)
+    {
+        printf("Enter %d element of array:",i+1);
+        scanf("%d",&Rollno[i]);
+    }
+        printf("Output is \n");
+        for(i=0;i<5;i++)
+        printf("%d",Rollno[i]);
+    }
+    
+    
+    
+    
+    OUTPUT:Enter 1 element of array:5
+           Enter 2 element of array:4
+           Enter 3 element of array:3
+           Enter 4 element of array:8
+           Enter 5 element of array:9
+           Output is 
+           54389
