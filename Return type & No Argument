@@ -1,0 +1,19 @@
+// Function the name with return type and no argument
+#include <stdio.h>
+int add()
+{
+    int a,b;
+    int sum;
+    printf("Enter the value of a:");
+    scanf("%d",&a);
+    printf("Enter the value of b:");
+    scanf("%d",&b);
+    sum=a+b;
+    return sum;
+}
+void main()
+{
+    int sum;
+    sum=add();
+    printf("%d",sum);
+}
