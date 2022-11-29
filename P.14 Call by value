@@ -1,0 +1,22 @@
+//Call by value
+#include <stdio.h>
+void main()
+{
+int a=4;
+int b=5;
+swap(a,b);
+}
+void swap(int x,int y)
+{
+     printf("Before swapping value x=%d and y=%d  \n",x,y);
+    int temp;
+    temp=x;
+    x=y;
+    y=temp;
+    printf("After swapping value x=%d and y=%d  \n",x,y);
+    
+}
+
+
+OUTPUT:Before swapping value x=4 and y=5  
+       After swapping value x=5 and y=4  
