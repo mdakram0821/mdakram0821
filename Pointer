@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main() {
+ int a=10;
+ int *p=&a;
+ printf("The of a %d",a);
+ printf("\n");
+ printf("The adress of a %d",&a);
+ printf("\n");
+ printf("The value of p %d",p);
+ printf("\n");
+ printf("The adress of p %d",&p);
+ printf("\n");
+ printf("The value of p %d",*p);
+}
+
+
+OUTPUT:The value of a 10
+       The value of a 935380684
+       The value of p 935380684
+       The value of p 935380688
+       The value of p 10
