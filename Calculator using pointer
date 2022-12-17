@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int a,b;
+    int*p1,*p2;
+    int ch;
+    p1=&a;
+    p2=&b;
+    printf("Select the operation\n");
+    printf("Type 1 for addition\n");
+    printf("Type 2 for subtraction\n");
+    printf("Type 3 for multiplication\n");
+    printf("Type 4 For division\n");
+    scanf("%d",&ch);
+    printf("Enter any two number\n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    switch(ch)
+    {
+        case 1:
+        printf("%d+%d=%d",a,b,(*p1+*p2));
+        break;
+        case 2:
+         printf("%d-%d=%d",a,b,(*p1-*p2));
+        break;
+        case 3:
+         printf("%d*%d=%d",a,b,(*p1**p2));
+        break;
+        case 4:
+        if(*p2==0);
+        {
+            printf("Sorry, you cannot divide our number by 0");
+            return 0;
+        }
+        printf("%d/%d=%0.2f",a,b,(*p1/(float)*p2));
+        break;
+        default:
+        printf("Sorry,invalid choice");
+    }
+    return 0;
+}
