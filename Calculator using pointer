@@ -7,7 +7,7 @@ int main()
     int ch;
     p1=&a;
     p2=&b;
-    printf("Select the operation\n");
+    printf("Simple Calculator\n");
     printf("Type 1 for addition\n");
     printf("Type 2 for subtraction\n");
     printf("Type 3 for multiplication\n");
